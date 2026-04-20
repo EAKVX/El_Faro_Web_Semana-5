@@ -52,13 +52,13 @@ el-faro-web/
 
 ## 🌐 Acceso al sitio
 
-👉 (Aquí irá el link de GitHub Pages una vez activado)
+👉 https://eakvx.github.io/El_Faro_Web_Semana-5/
 
 ---
 
 ## 📸 Vista del proyecto
 
-(Sugerencia: agregar captura de pantalla del sitio)
+<img width="386" height="369" alt="image" src="https://github.com/user-attachments/assets/44b256b8-8a1b-4ab1-b3c0-46bc4d0e838c" />
 
 ---
 
