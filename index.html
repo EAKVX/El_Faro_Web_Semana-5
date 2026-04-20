@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"> <!--Bulma-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -45,11 +45,9 @@
     <section id="inicio" class="container">
         <h2 class="title">Noticias Generales</h2>
 
-        <!-- FORMULARIO -->
         <h3 class="subtitle">Agregar nuevo artículo</h3>
 
         <form class="box" onsubmit="event.preventDefault(); agregarArticulo();">
-            
             <div class="field">
                 <label class="label">Título del artículo</label>
                 <div class="control">
@@ -65,12 +63,10 @@
             </div>
 
             <button class="button is-dark" type="submit">Agregar artículo</button>
-
         </form>
 
         <p id="contador">Artículos: 0</p>
 
-        <!-- LISTA DINÁMICA -->
         <div id="listaArticulos" class="columns is-multiline">
 
             <div class="column is-two-thirds">
@@ -83,7 +79,6 @@
             </div>
 
             <div class="column">
-
                 <div class="card mb-3">
                     <div class="card-content">
                         <p class="title is-6">Clima afecta zona sur</p>
@@ -97,23 +92,19 @@
                         <p>Cambios en el transporte público.</p>
                     </div>
                 </div>
-
             </div>
 
         </div>
 
-        <!-- VIDEO -->
         <h3 class="subtitle">Video destacado</h3>
         <video width="400" controls>
             <source src="assets/video/video_web.mp4" type="video/mp4">
         </video>
 
-        <!-- AUDIO -->
         <h3 class="subtitle">Audio destacado</h3>
         <audio controls>
             <source src="assets/audio/El_Faro_audio.mp3" type="audio/mp3">
         </audio>
-
     </section>
 
     <!-- DEPORTES -->
@@ -124,43 +115,49 @@
 
             <div class="column">
                 <div class="card">
-<div class="card-content">
-    <p class="title is-5">Arturo Vidal quedó descartado</p>
-    <img src="https://media.biobiochile.cl/wp-content/uploads/2026/03/vidal-abajo-de-conce-750x400.jpg">
-    <p>Se perderá el duelo por lesión.</p>
+                    <div class="card-content">
+                        <p class="title is-5">Arturo Vidal quedó descartado</p>
+                        <img src="https://media.biobiochile.cl/wp-content/uploads/2026/03/vidal-abajo-de-conce-750x400.jpg">
+                        <p>Se perderá el duelo por lesión.</p>
 
-    <a href="https://www.biobiochile.cl/noticias/deportes/futbol/colo-colo/2026/03/23/arturo-vidal-quedo-descartado-para-enfrentar-a-deportes-concepcion-y-ya-piensa-en-su-nuevo-objetivo.shtml" target="_blank" class="button is-link is-small mt-2">
-        Leer más
-    </a>
-</div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                  <div class="card-content">
-    <p class="title is-5">Nueva camiseta de Chile</p>
-    <img src="https://media.biobiochile.cl/wp-content/uploads/2026/03/adidas-camiseta-chile-desierto-florido-alternativa-750x400.jpg">
-    <p>Inspirada en el desierto florido.</p>
-
-    <a href="https://www.biobiochile.cl/noticias/deportes/futbol/la-roja/2026/03/20/ya-es-oficial-adidas-lanza-nueva-camiseta-alternativa-de-chile-inspirada-en-desierto-florido.shtml" target="_blank" class="button is-link is-small mt-2">
-        Leer más
-    </a>
-</div>
+                        <a href="https://www.biobiochile.cl/noticias/deportes/futbol/colo-colo/2026/03/23/arturo-vidal-quedo-descartado-para-enfrentar-a-deportes-concepcion-y-ya-piensa-en-su-nuevo-objetivo.shtml"
+                           target="_blank"
+                           class="button is-link is-small mt-2">
+                            Leer más
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <div class="column">
                 <div class="card">
                     <div class="card-content">
-    <p class="title is-5">Nueva camiseta de Chile</p>
-    <img src="https://media.biobiochile.cl/wp-content/uploads/2026/03/adidas-camiseta-chile-desierto-florido-alternativa-750x400.jpg">
-    <p>Inspirada en el desierto florido.</p>
+                        <p class="title is-5">Colo Colo empató</p>
+                        <img src="https://media.biobiochile.cl/wp-content/uploads/2026/03/colo-colo-empato-ante-coquimbo-en-la-copa-de-la-liga-750x400.jpg">
+                        <p>Empate 1-1 en su debut.</p>
 
-    <a href="https://www.biobiochile.cl/noticias/deportes/futbol/la-roja/2026/03/20/ya-es-oficial-adidas-lanza-nueva-camiseta-alternativa-de-chile-inspirada-en-desierto-florido.shtml" target="_blank" class="button is-link is-small mt-2">
-        Leer más
-    </a>
-</div>
+                        <a href="https://www.biobiochile.cl/noticias/deportes/futbol/colo-colo/2026/03/21/colo-colo-empato-con-coquimbo-unido-en-su-debut-en-la-copa-de-la-liga.shtml"
+                           target="_blank"
+                           class="button is-link is-small mt-2">
+                            Leer más
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <p class="title is-5">Nueva camiseta de Chile</p>
+                        <img src="https://media.biobiochile.cl/wp-content/uploads/2026/03/adidas-camiseta-chile-desierto-florido-alternativa-750x400.jpg">
+                        <p>Inspirada en el desierto florido.</p>
+
+                        <a href="https://www.biobiochile.cl/noticias/deportes/futbol/la-roja/2026/03/20/ya-es-oficial-adidas-lanza-nueva-camiseta-alternativa-de-chile-inspirada-en-desierto-florido.shtml"
+                           target="_blank"
+                           class="button is-link is-small mt-2">
+                            Leer más
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -172,7 +169,6 @@
         <h2 class="title">Negocios</h2>
 
         <div class="columns">
-
             <div class="column">
                 <div class="box">
                     <h3>Emprendimientos digitales crecen</h3>
@@ -193,7 +189,6 @@
                     <p>Expansión en centros comerciales.</p>
                 </div>
             </div>
-
         </div>
     </section>
 
